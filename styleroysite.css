@@ -4,7 +4,7 @@ body {
    font-family: "georgia, sans-serif";
     text-align: center;
 	font-size:100%;
-	margin: 2px 2px 2px 3px;
+	margin: 2px 3px 2px 3px;
     color:#e57038;
 
 }
@@ -43,7 +43,7 @@ article, footer, header, hgroup, nav {
 
 header {
 	font-family:"Georgia, serif"; 
-	letter-spacing:2px;
+	letter-spacing:1px;
 	font-weight:700;
 	font-size: 2em;
 	text-align: center;
