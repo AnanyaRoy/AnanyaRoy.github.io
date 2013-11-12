@@ -24,8 +24,9 @@ body {
 #header {
 	margin: 0px;
 	padding: 0;
-	height: 250px;
+	height: 200px;
 	width: 1054px;
+	background-color: #ffffff;
 	}
 
 #content-bottom {
@@ -45,7 +46,7 @@ header {
 	font-family:"Georgia, serif"; 
 	letter-spacing:1px;
 	font-weight:700;
-	font-size: 2em;
+	font-size: 3.5em;
 	text-align: center;
 	}
 
@@ -58,14 +59,14 @@ header h1 {
 
 header h2 {
 	margin:0.125em 0;
-	font-size:1em; 
+	font-size:2em; 
 	padding-right: 5em;
 	padding-bottom: 1em; 
 }
 
 header h3 {
 	font-family: "Georgia, serif";
-	font-size: 1em;
+	font-size: 1.5em;
 }
 
 /*IMAGE RULES*/
