@@ -84,7 +84,7 @@ nav {
 
 nav li {
 	font-family:"Georgia", serif;
-	font-size:3em; 
+	font-size:4em; 
 	font-weight:900;
 }
 
@@ -102,9 +102,10 @@ nav a:hover, nav a:active {
 /* ARTICLE RULES */
 
 article {
-	padding: 0 20em 0em 8em;
+	padding: 0 20em 0em 10em;
     color:#9ACD32;
     font-size:1em;
+   
 }
 
 article h1 {
@@ -179,8 +180,8 @@ a:hover, p a:hover{
 	font-family: "Georgia, serif";
 	font-size: 30px;
 	letter-spacing: 3px;
-	padding-right: 4em;
-	padding-bottom: 2em;
+	padding-right: 3.5em;
+	padding-bottom: 4em;
 }
 
 
