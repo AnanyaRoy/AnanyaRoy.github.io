@@ -1,7 +1,6 @@
 body {
 	width:100%;
-	background-color: #000000;
-   font-family: "georgia, sans-serif";
+   font-family: "Roboto Condensed", Arial, Helvetica, sans-serif;
     text-align: center;
 	font-size:100%;
 	margin: 2px 3px 2px 3px;
@@ -26,7 +25,7 @@ body {
 	padding: 0;
 	height: 200px;
 	width: 1054px;
-	background-color: #ffffff;
+	background: ;
 	}
 
 #content-bottom {
@@ -39,6 +38,18 @@ body {
 article, footer, header, hgroup, nav {
 	display:block;
 }
+
+/*BACKGROUND RULES*/
+img.bg {
+  min-height: 100%;
+  min-width: 1024px;
+  width: 100%;
+  height: auto;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
 
 /* HEADER RULES */
 
@@ -240,7 +251,12 @@ a:hover, p a:hover{
 
 /* RESPONSIVE WEB DESIGN OVERRIDES */
 
-
+@media screen and (max-width: 1024px) { 
+  img.bg {
+    left: 50%;
+    margin-left: -512px;   
+  }
+}
 @media screen and (min-width:320px) {
 	.invisible {
 		width:320px;
