@@ -34,12 +34,6 @@ body {
         margin: 0;
 
 }
-#search-form {
-        width: 365px;
-        margin: 20px;
-        float: right;
-    border-radius: 17px;
-}
 
 article, footer, header, hgroup, nav {
         display:block;
