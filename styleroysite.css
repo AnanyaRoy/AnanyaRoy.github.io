@@ -43,8 +43,8 @@ article, footer, header, hgroup, nav {
 
 header {
 	font-family:"Georgia, serif"; 
-	letter-spacing:3px;
-	font-weight:900;
+	letter-spacing:2px;
+	font-weight:700;
 	font-size: 2em;
 	text-align: center;
 	}
@@ -52,12 +52,12 @@ header {
 header h1 {
 	padding-right: 8em;
     margin:0.05em 0; 
-	font-size:4em;  
+	font-size:3em;  
 }
 
 header h2 {
 	margin:0.125em 0;
-	font-size:2.0em; 
+	font-size:2em; 
 	padding-right: 5em;
 	padding-bottom: 1em; 
 }
@@ -110,7 +110,7 @@ article {
 article h1 {
 	padding: 0em 5em 0em 5em;
 	font-family:"Georgia, serif";
-	font-size:3em; 
+	font-size:2.5em; 
 	letter-spacing: 2px;
 	font-weight:700;
 
@@ -124,7 +124,7 @@ article h2 {
 
 article h3 {
 	font-family:"Georgia, serif";
-	font-size:2em;
+	font-size:1.5em;
 	padding-right: 2em;
 	font-weight:700;
 	letter-spacing:3px;
@@ -187,7 +187,7 @@ a:hover, p a:hover{
 #sidebar h1 {
 	font-family:"Georgia, serif";
 	color: #e57038;
-	font-size:1.5em; 
+	font-size:2em; 
 	font-weight:700;
 	padding-right: 5em;
 	
