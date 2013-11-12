@@ -109,7 +109,7 @@ article {
 }
 
 article h1 {
-	padding: 0em 5em 0em 0em;
+	padding: 0em 5em 0em 5em;
 	font-family:"Georgia, serif";
 	font-size:3em; 
 	letter-spacing: 2px;
