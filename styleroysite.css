@@ -4,7 +4,7 @@ body {
    font-family: "georgia, sans-serif";
     text-align: center;
 	font-size:100%;
-	margin: 2px 2px 2px 2px;
+	margin: 2px 2px 2px 3px;
     color:#e57038;
 
 }
@@ -134,7 +134,7 @@ article h3 {
 }
 
 article p {
-	margin: 0.125em;
+	margin: 0.2em;
 	text-align:justify;
 	line-height:95%;
     font-family:"Georgia, serif";
@@ -181,8 +181,8 @@ a:hover, p a:hover{
 	font-family: "Georgia, serif";
 	font-size: 30px;
 	letter-spacing: 3px;
-	padding-right: 3.5em;
-	padding-bottom: 4em;
+	padding-right: 2em;
+	padding-bottom: 6em;
 }
 
 
