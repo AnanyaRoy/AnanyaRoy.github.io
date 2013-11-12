@@ -52,20 +52,20 @@ header {
 header h1 {
 	padding-right: 8em;
         margin:0.05em 0; 
-	font-size:2em;
+	font-size:3em;
 	
 }
 
 header h2 {
 	margin:0.125em 0;
-	font-size:2em; 
+	font-size:1em; 
 	padding-right: 5em;
 	padding-bottom: 1em; 
 }
 
 header h3 {
 	font-family: "Georgia, serif";
-	font-size: 1.5em;
+	font-size: 1em;
 }
 
 /*IMAGE RULES*/
