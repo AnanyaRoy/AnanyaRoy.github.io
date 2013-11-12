@@ -1,11 +1,10 @@
 body {
 	width:100
-	background color:#336C33;
    font-family: "Roboto Condensed", Arial, Helvetica, sans-serif;
     text-align: center;
 	font-size:100%;
 	margin: 2px 3px 2px 3px;
-    color:#e57038;
+    color:#336C33;
 
 }
 
@@ -107,8 +106,8 @@ nav a:hover, nav a:active {
 
 article {
 	padding: 0 20em 0em 10em;
-    color:#9ACD32;
-    font-size:1em;
+        color:#9ACD32;
+        font-size:1em;
    
 }
 
@@ -173,7 +172,8 @@ a:hover, p a:hover{
 
 /*SIDEBAR RULES*/
 #sidebar{
-	float:right;}	
+	float:right;
+	}	
 	
 #sidebar a:hover, #sidebar a:active {
 	color:#82c55a;
@@ -184,8 +184,7 @@ a:hover, p a:hover{
 	font-family: "Roboto Condensed", Arial, Helvetica, sans-serif;
 	font-size: 30px;
 	letter-spacing: 3px;
-	padding-right: 2em;
-	padding-bottom: 6em;
+	padding-bottom: 10em;
 	
 }
 
