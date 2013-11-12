@@ -273,7 +273,7 @@ input[type="text"]
 
 /* RESPONSIVE WEB DESIGN OVERRIDES */
 
-@media screen and (min-width:1050px) {
+@media screen and (min-width:320px) {
 	.invisible {
 		width:960px;
 		margin-left:auto;
@@ -285,7 +285,7 @@ input[type="text"]
 	}
 }
 
-@media screen and (max-width:1049px) {
+@media screen and (max-width:600px) {
 	.invisible {
 		width:auto;
 	}
@@ -298,22 +298,15 @@ input[type="text"]
 	ul.secondnav li.second {
 		padding-left:3%;
 	}
-}
-
-@media screen and (max-width: 750px),
-screen and (max-width: 768px) and (orientation: portrait) {
-	.invisible {
-		width:auto;
-	}
 
 	header h1 {
-		margin:0.0769230769230769em 0; /* 5px / 65px */
-		font-size:4.0625em; /* 65px / 16px */
-		padding-bottom:0.0769230769230769em; /* 5px / 65px */
+		margin:0.07em 0; /* 5px / 65px */
+		font-size:4em; /* 65px / 16px */
+		padding-bottom:0.07em; /* 5px / 65px */
 	}
 
 	header h2 {
-		margin:0.208333333333em 0; /* 5px / 24px */
+		margin:0.2em 0; /* 5px / 24px */
 		font-size:2.0em; /* 24px / 16px */
 	}
 
@@ -337,7 +330,7 @@ screen and (max-width: 768px) and (orientation: portrait) {
 
 	article h1 {
 		font-size:2.4em; /* 24px / 16px */
-		margin:1em 0 0.4166666666667em; /* 10px / 24px */
+		margin:1em 0 0.4em; /* 10px / 24px */
 	}
 
 	article h2 {
@@ -353,13 +346,13 @@ screen and (max-width: 768px) and (orientation: portrait) {
 	}
 
 	header h1 {
-		margin:0.138888888889em 0; /* 5px / 36px */
+		margin:0.1em 0; /* 5px / 36px */
 		font-size:2.25em; /* 36px / 16px */
-		padding-bottom:0.138888888889em; /* 5px / 36px */
+		padding-bottom:0.1em; /* 5px / 36px */
 	}
 
 	header h2 {
-		margin:0.3125em 0; /* 5px / 16px */
+		margin:0.3em 0; /* 5px / 16px */
 		font-size:2em;
 	}
 
@@ -395,7 +388,6 @@ screen and (max-width: 768px) and (orientation: portrait) {
 		font-size:1em;
 		padding:0 0.3em;
 	}
-}
 
 element {
 }
@@ -406,7 +398,6 @@ img.decoded {
 .shrinkToFit {
     cursor: zoom-in;
 }
-
 
 
 
