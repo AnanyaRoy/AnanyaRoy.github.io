@@ -57,15 +57,14 @@ header h1 {
 
 header h2 {
 	margin:0.125em 0;
-	font-size:1.0em; 
+	font-size:2.0em; 
 	padding-right: 5em;
 	padding-bottom: 1em; 
 }
 
 header h3 {
 	font-family: "Georgia, serif";
-	font-size: 2em;
-	padding-top: 2em;
+	font-size: 1.5em;
 }
 
 /*IMAGE RULES*/
