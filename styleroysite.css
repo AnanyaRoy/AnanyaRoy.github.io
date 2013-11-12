@@ -34,12 +34,6 @@ body {
 	margin: 0;
 
 }
-#search-form {
-	width: 365px;
-	margin: 20px;
-	float: right;
-    border-radius: 17px;
-}
 
 article, footer, header, hgroup, nav {
 	display:block;
@@ -163,28 +157,6 @@ a:hover, p a:hover{
 	text-decoration: underline;
 	}  
 
-/*TABLE RULES*/
-table {
-width:990px;
-color:#82c55a;
-width:100%;
-color:#ffffff;
-}
-
-
-/*SEARCH BOX RULES */
-input[type="text"]
-{
-	background: #e57038; 
-	border: 0;
-	border-bottom: 2px solid #e57038;
-	border-right: 2px solid #e57038;
-	font-size: 10px;
-	margin: 2px;
-	padding: 4px;
-	width: 150px;
-	box-shadow: 1px 1px 1px #0ea439, 0 0 1px #e57038;
-}
 
 /* FOOTER RULES */
 
@@ -228,13 +200,6 @@ input[type="text"]
 	font-weight:700;
 	padding-right: 2em;
 }
-
-#calendar th {
-	font-style: normal;
-	text-transform: capitalize;
-	color: #e57038;
-	text-align: center;
-	}
 
 /*CONTACT FORM RULES*/
 
