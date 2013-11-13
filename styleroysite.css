@@ -23,7 +23,7 @@ body {
 
 #header {
         margin: 0px;
-        padding: 0;
+        padding-left:2em;
         height: 100px;
         width: 1054px;
         }
@@ -44,7 +44,6 @@ article, footer, header, hgroup, nav {
 header {
         font-family:"Oswald", sans-serif;
         letter-spacing:2.5px;
-        padding-right:2em;
         font-weight:900;
         font-size: 2em;
         text-align: center;
@@ -92,7 +91,7 @@ nav li {
 nav a:link, nav a:visited {
         color:#618743;
         font-family: "Oswald", sans-serif;
-        font-size: 18px;
+        font-size: 25px;
         padding-left: 2em;
 }
 
@@ -103,13 +102,13 @@ nav a:hover, nav a:active {
 /* ARTICLE RULES */
 
 article {
-        padding: 0 20em 0em 15em;
+        padding: 0 20em 0em 20em;
         color:#436187;
         font-size:1em;
 }
 
 article h1 {
-        padding: 0em 5em 0em 0em;
+        padding: 0em 5em 0em 5em;
         font-family:"Oswald", sans-serif;
         font-size:3em;
         letter-spacing: 3px;
@@ -165,6 +164,8 @@ a:hover, p a:hover{
         width: 100%;
         min-height: 15px;
         text-align:center;
+        padding-left:10em;
+        padding-right:10em;
 }
 
 
