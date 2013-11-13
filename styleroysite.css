@@ -102,9 +102,9 @@ nav a:hover, nav a:active {
 /* ARTICLE RULES */
 
 article {
-        padding: 0 20em 0em 10em;
-    color:#436187;
-    font-size:1em;
+        padding: 0 20em 0em 15em;
+        color:#436187;
+        font-size:1em;
 }
 
 article h1 {
