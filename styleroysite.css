@@ -51,12 +51,12 @@ header {
 
 header h1 {
         padding-right: 8em;
-    margin:0.05em 0;
+        text-align:center;
         font-size:2.5em;
 }
 
 header h2 {
-        margin:0.125em 0;
+        text-align:center;
         font-size:1.0em;
         padding-right: 5em;
         padding-bottom: 1em;
@@ -164,6 +164,7 @@ a:hover, p a:hover{
         overflow: hidden;
         width: 100%;
         min-height: 15px;
+        text-align:center;
 }
 
 
