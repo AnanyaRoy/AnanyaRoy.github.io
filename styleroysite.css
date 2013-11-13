@@ -259,16 +259,15 @@ a:hover, p a:hover{
 
 }
 
-@media screen and (max-width: 750px),
-screen and (max-width: 768px) and (orientation: portrait) {
+@media screen and (max-width: 750px), {
 	.invisible {
 		width:auto;
 	}
 
 	header h1 {
-		margin:0.06em 0; /* 5px / 65px */
-		font-size:3em; /* 48px / 16px */
-		padding-bottom:0.06em; /* 5px / 65px */
+		margin:0.07em 0; 
+		font-size:3em; 
+		padding-bottom:0.07em; 
 	}
 
 	article {
@@ -276,61 +275,73 @@ screen and (max-width: 768px) and (orientation: portrait) {
 	}
 
 	article h1 {
-		font-size:1.5em; /* 24px / 16px */
-		margin:1em 0 0.4em; /* 10px / 24px */
+		font-size:1.5em; 
+		margin:1em 0 0.4em; 
 	}
 
 	article h2 {
 		font-size:1.2em;
-		margin:2em 0 0.6em; /* 10px / 16px */
+		margin:2em 0 0.625em; 
 		font-weight:700;
 	}
 }
 
-@media screen and (max-width:480px) { 
-	.invisible {
-		width:auto;
+@media screen and (max-width: 480px) {
+        .invisible {
+        width:auto;
+       }
+
+        header h1 {
+        margin:0.1em 0; 
+        font-size:2.25em; 
+       padding-bottom:0.13em; 
+       }
+
+      header h2 {
+      margin:0.3em 0; 
+      font-size:2em;
+      }
+
+
+      nav li, footer li {
+     font-size:2em;
+     padding:0 0.5em;
+      }
+
+      article p {
+      text-align:left;
+        }
+        article h1 {
+		font-size:1em; 
+		margin:1em 0 0.4em; 
 	}
-                
-        	
-        }
-        #header h1 {
-        	margin:0.10em;
-        	font-size:1.5em;
-               
+
+	article h2 {
+		font-size:0.75em;
+		margin:2em 0 0.625em; 
+		font-weight:700;
+	}
+}
+@media screen and (max-width: 320px) {
+        .invisible {
+        width:auto;
         }
 
-        #header h2 {
-               margin:0.10;
-               font-size:1em; 
-        }
-    
-       
-        #article p {
-        	height:50%;
-        	width:20%;
-                text-align:justify;
-                font-size:1em;
+        header h1, article h1 {
+        margin:0.2em 0; 
+        font-size:1.5em; 
+        padding-bottom:0.2em; 
         }
 
-        #article h1 {
-        	height:50%;
-        	width:20%;
-                font-size:1em;
-                text-align:center;
-        }
-
-        #article h2 {
-        	height:50%;
-        	width:20%;
-                font-size:1em;
-                font-weight:700;
-                text-align:center;
-        }
-
-        #footer {
+        header h2, article h2 {
+        margin:0.3125em 0; 
         font-size:1em;
-	text-align:center;
         }
+
+        nav li, footer li {
+        font-size:1em;
+        padding:0 0.3em;
+       }
+}
 
         
