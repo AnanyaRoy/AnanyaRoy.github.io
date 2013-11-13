@@ -1,6 +1,6 @@
 body {
         width:100%;
-        background-color: #000000;
+        background-color:#874361;
    font-family: "Oswald", sans-serif;
     text-align: center;
         font-size:100%;
@@ -24,13 +24,13 @@ body {
 #header {
         margin: 0px;
         padding: 0;
-        height: 250px;
+        height: 150px;
         width: 1054px;
         }
 
 #content-bottom {
         width: 1054px;
-        height: 50px;
+        height: 80px;
         margin: 0;
 
 }
@@ -52,18 +52,17 @@ header {
 header h1 {
       
         text-align:center;
-        font-size:2.5em;
+        font-size:2em;
 }
 
 header h2 {
         text-align:center;
-        font-size:1.0em;
-        padding-bottom: 0.2em;
+        font-size:1.5em;
 }
 
 header h3 {
         font-family: "Oswald", sans-serif;
-        font-size: 2em;
+        font-size: 1em;
        
 }
 
@@ -89,7 +88,7 @@ nav li {
 }
 
 nav a:link, nav a:visited {
-        color:#FFFFF0;
+        color:#618743;
         font-family: "Oswald", sans-serif;
         font-size: 18px;
         padding-left: 2em;
@@ -103,7 +102,7 @@ nav a:hover, nav a:active {
 
 article {
         padding: 0 20em 0em 10em;
-    color:#9ACD32;
+    color:#436187;
     font-size:1em;
 }
 
@@ -111,7 +110,7 @@ article h1 {
         padding: 0em 5em 0em 0em;
         font-family:"Oswald", sans-serif;
         font-size:3em;
-        letter-spacing: 2px;
+        letter-spacing: 3px;
         font-weight:700;
 
         
@@ -128,7 +127,7 @@ article h3 {
         padding-right: 2em;
         font-weight:700;
         letter-spacing:3px;
-        color: #9ACD32;
+        color: #436187;
 }
 
 article p {
@@ -137,13 +136,13 @@ article p {
         line-height:95%;
     font-family:"Oswald", sans-serif;
     font-size: 16px;
-    font-weight: 700;
-    color: #ffffff;
+    font-weight: 400;
+    color: #e0d0d8;
    
 }
 
 article line-height {
-        min-height:7px;
+        min-height:8px;
 }
 
 a {
@@ -176,7 +175,7 @@ a:hover, p a:hover{
 }
 
 #sidebar a {
-        color:#ffffff;
+        color:#618743;
         font-family: "Oswald", sans-serif;
         font-size: 30px;
         letter-spacing: 3px;
@@ -187,7 +186,7 @@ a:hover, p a:hover{
 
 #sidebar h1 {
         font-family:"Oswald", sans-serif;
-        color: #e57038;
+        color: #436187;
         font-size:1.5em;
         font-weight:700;
         padding-right: 5em;
@@ -196,7 +195,7 @@ a:hover, p a:hover{
 }
 #sidebar h2 {
         font-family:"Oswald", sans-serif;
-        color: #e57038;
+        color: #618743;
         font-size:1.5em;
         font-weight:700;
         padding-right: 2em;
