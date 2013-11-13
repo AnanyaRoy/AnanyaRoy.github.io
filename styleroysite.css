@@ -192,6 +192,7 @@ a:hover, p a:hover{
         font-size:1.5em;
         font-weight:700;
         padding-right: 5em;
+        padding-left: 2em;
         
 }
 #sidebar h2 {
@@ -200,6 +201,7 @@ a:hover, p a:hover{
         font-size:1.5em;
         font-weight:700;
         padding-right: 2em;
+        padding-left: 2em;
 }
 
 
