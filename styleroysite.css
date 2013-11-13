@@ -24,7 +24,7 @@ body {
 #header {
         margin: 0px;
         padding: 0;
-        height: 150px;
+        height: 100px;
         width: 1054px;
         }
 
@@ -43,7 +43,7 @@ article, footer, header, hgroup, nav {
 
 header {
         font-family:"Oswald", sans-serif;
-        letter-spacing:3px;
+        letter-spacing:2.5px;
         font-weight:900;
         font-size: 2em;
         text-align: left;
@@ -132,13 +132,13 @@ article h3 {
 }
 
 article p {
-        margin: 0.125em;
+        margin: 0.5em;
         text-align:justify;
         line-height:95%;
-    font-family:"Oswald", sans-serif;
-    font-size: 16px;
-    font-weight: 400;
-    color: #e0d0d8;
+        font-family:"Oswald", sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        color: #e0d0d8;
    
 }
 
