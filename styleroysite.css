@@ -44,9 +44,10 @@ article, footer, header, hgroup, nav {
 header {
         font-family:"Oswald", sans-serif;
         letter-spacing:2.5px;
+        padding-right:2em;
         font-weight:900;
         font-size: 2em;
-        text-align: left;
+        text-align: center;
         }
 
 header h1 {
