@@ -258,7 +258,13 @@ a:hover, p a:hover{
                font-size:1.5em; 
         }
 
-
+       #img {
+        float: left;
+        padding-right:0.5em;
+        height:50%
+        width:50%;
+    
+        }
         #article p {
         	width:30%;
                 text-align:justify;
