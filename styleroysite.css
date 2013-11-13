@@ -243,48 +243,6 @@ a:hover, p a:hover{
 
 /* RESPONSIVE WEB DESIGN OVERRIDES */
 
-@media screen and (min-width:1050px) {
-	.invisible {
-		width:960px;
-		margin-left:auto;
-		margin-right:auto;
-	}
-
-}
-
-@media screen and (max-width:1049px) {
-	.invisible {
-		width:auto;
-	}
-
-}
-
-@media screen and (max-width: 750px), {
-	.invisible {
-		width:auto;
-	}
-
-	header h1 {
-		margin:0.07em 0; 
-		font-size:3em; 
-		padding-bottom:0.07em; 
-	}
-
-	article {
-		padding-top:0.5em;
-	}
-
-	article h1 {
-		font-size:1.5em; 
-		margin:1em 0 0.4em; 
-	}
-
-	article h2 {
-		font-size:1.2em;
-		margin:2em 0 0.625em; 
-		font-weight:700;
-	}
-}
 
 @media screen and (max-width: 480px) {
         .invisible {
