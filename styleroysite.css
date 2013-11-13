@@ -5,7 +5,7 @@ body {
     text-align: center;
         font-size:100%;
         margin: 2px 2px 2px 2px;
-    color:#e57038;
+    color:#727272;
 
 }
 
@@ -53,6 +53,7 @@ header h1 {
       
         text-align:center;
         font-size:2em;
+        
 }
 
 header h2 {
@@ -242,36 +243,36 @@ a:hover, p a:hover{
 
 @media screen and (max-width:600px) { 
                 
-        #header h1 {
+        #header {
         	width:30%;
-                margin:auto; 
-                font-size:2em;
-                padding-bottom:0.07em; 
+        	height:70%;
+        	
+        }
+        #header h1 {
+        	 font-size:1em;
+                color: ;
         }
 
         #header h2 {
-        	width:30%;
-                margin:auto; 
-                font-size:1.5em; 
+               width:30%;
+               font-size:1.5em; 
         }
 
 
         #article {
         	width:30%;
-                padding-top:0.5em;
                 text-align:justify;
+                font-size:1em;
         }
 
         #article h1 {
         	width:30%;
-                font-size:2em;
-                margin:auto;
+                font-size:1.5em;
                 text-align:center;
         }
 
         #article h2 {
-                font-size:1.5em;
-                margin:auto; 
+                font-size:1em;
                 font-weight:700;
                 text-align:center;
         }
