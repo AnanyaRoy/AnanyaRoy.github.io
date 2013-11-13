@@ -84,14 +84,14 @@ nav {
 
 nav li {
         font-family:"Oswald", sans-serif;
-        font-size:3em;
+        font-size:5em;
         font-weight:900;
 }
 
 nav a:link, nav a:visited {
         color:#618743;
         font-family: "Oswald", sans-serif;
-        font-size: 25px;
+        font-size: 30px;
         padding-left: 2em;
 }
 
