@@ -8,7 +8,6 @@ body {
 
 #bgimg {
     position:absolute;
-    z-index: -1;
 }
 #page {
         width: 1054px;
