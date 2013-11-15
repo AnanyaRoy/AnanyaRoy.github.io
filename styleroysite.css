@@ -1,14 +1,15 @@
 body {
         width:100%;
-        background-color:#874361;
-   font-family: "Oswald", sans-serif;
-    text-align: center;
+        font-family: "Oswald", sans-serif;
+        text-align: center;
         font-size:100%;
         margin: 2px 2px 2px 2px;
-    color:#727272;
+    }
 
+#bgimg {
+    position:absolute;
+    z-index: -1;
 }
-
 #page {
         width: 1054px;
         text-align: left;
@@ -88,7 +89,7 @@ nav li {
 }
 
 nav a:link, nav a:visited {
-        color:#618743;
+        color:#FFFFFF;
         font-family: "Oswald", sans-serif;
         font-size: 30px;
         padding-left: 2em;
