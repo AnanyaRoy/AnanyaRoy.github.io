@@ -188,8 +188,6 @@ a:hover, p a:hover{
         text-decoration: underline;
         }
 
-.hidden{display:block;
-}
 
 /* FOOTER RULES */
 
@@ -335,8 +333,7 @@ and (max-width: 480px)
                 text-align:center;
         }
 
-      .hidden {display:none;
-      }      
+         
         #footer {
         font-size:1em;
     text-align:center;
