@@ -188,6 +188,8 @@ a:hover, p a:hover{
         text-decoration: underline;
         }
 
+.hidden{display:block;
+}
 
 /* FOOTER RULES */
 
