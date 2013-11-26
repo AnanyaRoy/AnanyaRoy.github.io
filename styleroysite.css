@@ -334,6 +334,8 @@ and (max-device-width: 480px)
                 text-align:center;
         }
 
+      .hidden {display:none;
+      }      
         #footer {
         font-size:1em;
     text-align:center;
