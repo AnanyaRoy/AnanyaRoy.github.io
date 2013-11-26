@@ -286,39 +286,42 @@ a:hover, p a:hover{
 @media only screen 
 and (max-width: 480px) 
                 
-        #header {
+        header {
             width:40%;
             height:30%;
             
         }
-        #header h1 {
+        header h1 {
             height:50%;
             width:40%;
              font-size:1em;
                 color: ;
         }
 
-        #header h2 {
+        header h2 {
                height:50%;
                width:40%;
                font-size:1.5em; 
         }
 
-       #img {
+       img {
         float: left;
         padding-right:0.5em;
         height:30%;
         width:30%;
     
         }
-        #article p {
+        
+        article {float:none;}
+        
+        article p {
             height:70%;
             width:30%;
                 text-align:left;
                 font-size:1em;
         }
 
-        #article h1 {
+        article h1 {
             height:50%;
             width:30%;
                 font-size:1.5em;
@@ -326,7 +329,7 @@ and (max-width: 480px)
                 text-align:center;
         }
 
-        #article h2 {
+        article h2 {
             height:50%;
             width:30%;
                 font-size:1em;
@@ -335,7 +338,7 @@ and (max-width: 480px)
         }
 
          
-        #footer {
+        footer {
         font-size:1em;
     text-align:center;
         }
