@@ -349,39 +349,39 @@ and (max-width: 480px)
 and (min-width : 768px) 
 and (max-width : 1024px) 
 
-        #header {
+        header {
             width:50%;
             height:80%;
             
         }
-        #header h1 {
+        header h1 {
             height:60%;
             width:40%;
              font-size:1.5em;
                 color: ;
         }
 
-        #header h2 {
+        header h2 {
                height:60%;
                width:40%;
                font-size:1em; 
         }
 
-       #img {
+       img {
         float: left;
         padding-right:0.7em;
         height:60%;
         width:60%;
     
         }
-        #article p {
+        article p {
             height:80%;
             width:40%;
                 text-align:justify;
                 font-size:1.5em;
         }
 
-        #article h1 {
+        article h1 {
             height:60%;
             width:40%;
                 font-size:2em;
@@ -389,7 +389,7 @@ and (max-width : 1024px)
                 text-align:center;
         }
 
-        #article h2 {
+        article h2 {
             height:60%;
             width:40%;
                 font-size:1.5em;
@@ -397,7 +397,7 @@ and (max-width : 1024px)
                 text-align:center;
         }
 
-        #footer {
+        footer {
         font-size:1.5em;
     text-align:center;
         }
@@ -406,39 +406,39 @@ and (max-width : 1024px)
 /*Large screens*/
 @media only screen 
 and (min-width: 1824px) 
-        #header {
+        header {
             width:110%;
             height:100%;
             
         }
-        #header h1 {
+        header h1 {
             height:110%;
             width:100%;
              font-size:2em;
                 color: ;
         }
 
-        #header h2 {
+        header h2 {
                height:105%;
                width:95%;
                font-size:1.5em; 
         }
 
-       #img {
+       img {
         float: left;
         padding-right:1em;
         height:110%;
         width:110%;
     
         }
-        #article p {
+        article p {
             height:110%;
             width:110%;
                 text-align:justify;
                 font-size:2em;
         }
 
-        #article h1 {
+        article h1 {
             height:100%;
             width:100%;
                 font-size:2em;
@@ -446,7 +446,7 @@ and (min-width: 1824px)
                 text-align:center;
         }
 
-        #article h2 {
+        article h2 {
             height:100%;
             width:100%;
                 font-size:1.5em;
@@ -454,7 +454,7 @@ and (min-width: 1824px)
                 text-align:center;
         }
 
-        #footer {
+        footer {
         font-size:2em;
     text-align:center;
         }
