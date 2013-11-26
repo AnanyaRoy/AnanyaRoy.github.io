@@ -129,7 +129,6 @@ nav a:hover, nav a:active {
 /* ARTICLE RULES */
 
 article {
-        float:left;
         padding: 20em 2em 0em 0em;
         color:#436187;
         font-size:1em;
@@ -202,10 +201,10 @@ a:hover, p a:hover{
 
 /*SIDEBAR RULES*/
 #sidebar{
-       
+        float:right;
         padding-left:20em;
         padding-right:2em;
-    }        
+    }
         
 #sidebar a:hover, #sidebar a:active {
         color:#82c55a;
@@ -283,8 +282,9 @@ a:hover, p a:hover{
 /* RESPONSIVE WEB DESIGN OVERRIDES */
 
 /* Mobile Phones Portrait and Landscape*/
-@media only screen 
-and (max-width: 480px) 
+@media only screen
+and (min-device-width: 320px)
+and (max-device-width: 480px)
                 
         #header {
             width:40%;
@@ -301,7 +301,7 @@ and (max-width: 480px)
         #header h2 {
                height:50%;
                width:40%;
-               font-size:1.5em; 
+               font-size:1.5em;
         }
 
        #img {
@@ -311,17 +311,14 @@ and (max-width: 480px)
         width:30%;
     
         }
-        
-        article {float:none;}
-        
-        article p {
+        #article p {
             height:70%;
             width:30%;
                 text-align:left;
                 font-size:1em;
         }
 
-        article h1 {
+        #article h1 {
             height:50%;
             width:30%;
                 font-size:1.5em;
@@ -329,7 +326,7 @@ and (max-width: 480px)
                 text-align:center;
         }
 
-        article h2 {
+        #article h2 {
             height:50%;
             width:30%;
                 font-size:1em;
@@ -337,17 +334,16 @@ and (max-width: 480px)
                 text-align:center;
         }
 
-         
-        footer {
+        #footer {
         font-size:1em;
     text-align:center;
         }
 
         
 /* iPads Portrait and Landscape */
-@media only screen 
-and (min-width : 768px) 
-and (max-width : 1024px) 
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
 
         #header {
             width:50%;
@@ -364,7 +360,7 @@ and (max-width : 1024px)
         #header h2 {
                height:60%;
                width:40%;
-               font-size:1em; 
+               font-size:1em;
         }
 
        #img {
@@ -374,14 +370,14 @@ and (max-width : 1024px)
         width:60%;
     
         }
-        article p {
+        #article p {
             height:80%;
             width:40%;
                 text-align:justify;
                 font-size:1.5em;
         }
 
-        article h1 {
+        #article h1 {
             height:60%;
             width:40%;
                 font-size:2em;
@@ -389,7 +385,7 @@ and (max-width : 1024px)
                 text-align:center;
         }
 
-        article h2 {
+        #article h2 {
             height:60%;
             width:40%;
                 font-size:1.5em;
@@ -397,15 +393,15 @@ and (max-width : 1024px)
                 text-align:center;
         }
 
-        footer {
+        #footer {
         font-size:1.5em;
     text-align:center;
         }
 
 
 /*Large screens*/
-@media only screen 
-and (min-width: 1824px) 
+@media only screen
+and (min-width : 1824px)
         #header {
             width:110%;
             height:100%;
@@ -421,7 +417,7 @@ and (min-width: 1824px)
         #header h2 {
                height:105%;
                width:95%;
-               font-size:1.5em; 
+               font-size:1.5em;
         }
 
        #img {
@@ -431,14 +427,14 @@ and (min-width: 1824px)
         width:110%;
     
         }
-        article p {
+        #article p {
             height:110%;
             width:110%;
                 text-align:justify;
                 font-size:2em;
         }
 
-        article h1 {
+        #article h1 {
             height:100%;
             width:100%;
                 font-size:2em;
@@ -446,7 +442,7 @@ and (min-width: 1824px)
                 text-align:center;
         }
 
-        article h2 {
+        #article h2 {
             height:100%;
             width:100%;
                 font-size:1.5em;
@@ -454,8 +450,7 @@ and (min-width: 1824px)
                 text-align:center;
         }
 
-        footer {
+        #footer {
         font-size:2em;
     text-align:center;
         }
-
