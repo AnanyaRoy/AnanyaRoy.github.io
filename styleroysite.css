@@ -285,8 +285,7 @@ a:hover, p a:hover{
 
 /* Mobile Phones Portrait and Landscape*/
 @media only screen 
-and (min-device-width: 320px) 
-and (max-device-width: 480px) 
+and (max-width: 480px) 
                 
         #header {
             width:40%;
@@ -346,8 +345,8 @@ and (max-device-width: 480px)
         
 /* iPads Portrait and Landscape */
 @media only screen 
-and (min-device-width : 768px) 
-and (max-device-width : 1024px) 
+and (min-width : 768px) 
+and (max-width : 1024px) 
 
         #header {
             width:50%;
@@ -405,7 +404,7 @@ and (max-device-width : 1024px)
 
 /*Large screens*/
 @media only screen 
-and (min-width : 1824px) 
+and (min-width: 1824px) 
         #header {
             width:110%;
             height:100%;
