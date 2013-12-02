@@ -129,7 +129,7 @@ article {
         padding: 10em 2em 0em 0em;
         color:#436187;
         font-size:1.5em;
-        margin-right: 10px;
+        margin-right: 4px;
         font-family:"Oswald", sans-serif;
 }
 
@@ -160,7 +160,7 @@ article h3 {
 }
 
 article p {
-        padding: 0em 2em 0em 2em;
+        padding: 0em 2em 0em 0em;
         text-align:justify;
         line-height:120%;
         font-family:"Oswald", sans-serif;
