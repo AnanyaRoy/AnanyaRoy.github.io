@@ -160,12 +160,12 @@ article h3 {
 }
 
 article p {
-        padding: 0em 2em 0em 0em;
+        padding: 0em 2em 0em 1em;
         text-align:justify;
         line-height:120%;
         font-family:"Oswald", sans-serif;
         font-size: 18px;
-        font-weight: 50;
+        font-weight: 50%;
         color: #e0d0d8;
    
 }
@@ -243,7 +243,6 @@ a:hover, p a:hover{
 /*IFRAME RULES*/
 
 #iframe {float:right;
-        padding-left:2em;
         margin-left:10px;
         }
 
