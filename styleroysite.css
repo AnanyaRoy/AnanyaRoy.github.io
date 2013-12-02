@@ -160,7 +160,7 @@ article h3 {
 }
 
 article p {
-        padding: 0em 2em 0em 1em;
+        padding: 0em 2em 0em 0em;
         text-align:justify;
         line-height:120%;
         font-family:"Oswald", sans-serif;
@@ -242,8 +242,9 @@ a:hover, p a:hover{
 
 /*IFRAME RULES*/
 
-#iframe {float:right;
+iframe {float:right;
         margin-left:10px;
+        padding-left:4em;
         }
 
 /*CONTACT FORM RULES*/
@@ -347,27 +348,27 @@ and (min-width : 768px)
 and (max-width : 1024px)
 
         #header {
-            width:70%;
-            height:50%;
+            width:90%;
+            height:70%;
             
         }
         #header h1 {
-            height:50%;
-            width:40%;
+            height:900%;
+            width:70%;
              font-size:1em;
         }
 
         #header h2 {
-               height:40%;
-               width:30%;
+               height:70%;
+               width:50%;
                font-size:1em;
         }
 
        #img {
         float: left;
         padding-right:0.7em;
-        height:50%;
-        width:50%;
+        height:70%;
+        width:70%;
     
         }
         #article p {
@@ -386,7 +387,7 @@ and (max-width : 1024px)
         }
 
         #article h2 {
-            height:60%;
+            height:70%;
             width:50%;
                 font-size:1em;
                 font-weight:900;
