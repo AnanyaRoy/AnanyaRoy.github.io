@@ -347,13 +347,13 @@ and (min-width : 768px)
 and (max-width : 1024px)
 
         #header {
-            width:50%;
-            height:40%;
+            width:70%;
+            height:50%;
             
         }
         #header h1 {
-            height:40%;
-            width:30%;
+            height:50%;
+            width:40%;
              font-size:1em;
         }
 
@@ -366,8 +366,8 @@ and (max-width : 1024px)
        #img {
         float: left;
         padding-right:0.7em;
-        height:30%;
-        width:30%;
+        height:50%;
+        width:50%;
     
         }
         #article p {
@@ -378,18 +378,18 @@ and (max-width : 1024px)
         }
 
         #article h1 {
-            height:50%;
-            width:40%;
+            height:70%;
+            width:50%;
                 font-size:1.5em;
-                font-weight:700;
+                font-weight:900;
                 text-align:center;
         }
 
         #article h2 {
-            height:50%;
-            width:40%;
+            height:60%;
+            width:50%;
                 font-size:1em;
-                font-weight:700;
+                font-weight:900;
                 text-align:center;
         }
 
