@@ -242,7 +242,7 @@ a:hover, p a:hover{
 
 /*VIDEO RULES*/
 
-iframe {float:right;
+article li {float:right;
         padding-left:2em;
         margin-left:10px;
         }
