@@ -240,9 +240,9 @@ a:hover, p a:hover{
         padding-left: 0em;
 }
 
-/*VIDEO RULES*/
+/*IFRAME RULES*/
 
-article li {float:right;
+#iframe {float:right;
         padding-left:2em;
         margin-left:10px;
         }
