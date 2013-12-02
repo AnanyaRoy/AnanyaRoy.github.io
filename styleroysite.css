@@ -288,21 +288,21 @@ and (min-width: 320px)
 and (max-width: 480px)
                 
         #header {
-            width:40%;
-            height:30%;
+            width:30%;
+            height:20%;
             
         }
         #header h1 {
-            height:50%;
-            width:40%;
-             font-size:1em;
+            height:40%;
+            width:30%;
+             font-size:0.5em;
                 color: ;
         }
 
         #header h2 {
-               height:50%;
-               width:40%;
-               font-size:1.5em;
+               height:40%;
+               width:30%;
+               font-size:0.5em;
         }
 
        #img {
@@ -347,55 +347,55 @@ and (min-width : 768px)
 and (max-width : 1024px)
 
         #header {
-            width:50%;
-            height:80%;
+            width:30%;
+            height:50%;
             
         }
         #header h1 {
-            height:60%;
-            width:40%;
-             font-size:1.5em;
+            height:50%;
+            width:30%;
+             font-size:1em;
                 color: ;
         }
 
         #header h2 {
-               height:60%;
-               width:40%;
-               font-size:1em;
+               height:50%;
+               width:30%;
+               font-size:0.5em;
         }
 
        #img {
         float: left;
         padding-right:0.7em;
-        height:60%;
-        width:60%;
+        height:50%;
+        width:50%;
     
         }
         #article p {
-            height:80%;
+            height:70%;
             width:100%;
                 text-align:justify;
                 font-size:1.5em;
         }
 
         #article h1 {
-            height:60%;
-            width:40%;
+            height:50%;
+            width:30%;
                 font-size:2em;
                 font-weight:700;
                 text-align:center;
         }
 
         #article h2 {
-            height:60%;
-            width:40%;
+            height:40%;
+            width:30%;
                 font-size:1.5em;
                 font-weight:700;
                 text-align:center;
         }
 
         #footer {
-        font-size:1.5em;
+        font-size:1em;
     text-align:center;
         }
 
