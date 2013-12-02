@@ -243,8 +243,8 @@ a:hover, p a:hover{
 /*VIDEO RULES*/
 
 iframe {float:right;
-        padding-left:2px;
-        margin-left:4px;
+        padding-left:2em;
+        margin-left:10px;
         }
 
 /*CONTACT FORM RULES*/
