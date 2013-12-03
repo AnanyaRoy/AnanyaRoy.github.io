@@ -299,15 +299,15 @@ and (max-width: 480px)
         #header h1 {
             height:40%;
             width:40%;
-             font-size:0.5em;
-             text-align: justify; 
+             font-size:0.3em;
+             text-align: left; 
         }
 
         #header h2 {
                height:40%;
                width:40%;
-               font-size:0.5em;
-               text-align:justify;
+               font-size:0.3em;
+               text-align:left;
         }
 
        #img {
@@ -329,7 +329,7 @@ and (max-width: 480px)
             width:100%;
                 font-size:0.3em;
                 font-weight:400;
-                text-align:center;
+                text-align:left;
         }
 
         #article h2 {
@@ -337,12 +337,13 @@ and (max-width: 480px)
             width:100%;
                 font-size:0.3em;
                 font-weight:400;
-                text-align:center;
+                text-align:left;
         }
         
         #article h3{
         height: 100%;
         width:100%;
+        text-align:left;
         }
 
         #footer {
