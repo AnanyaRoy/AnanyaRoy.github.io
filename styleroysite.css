@@ -108,7 +108,7 @@ img {
 nav li {
         font-family:"Oswald", sans-serif;
         font-size:4em;
-        font-weight:900;
+        font-weight:700;
 
 }
 
@@ -199,7 +199,7 @@ a:hover, p a:hover{
 /*SIDEBAR RULES*/
 #sidebar{
         float:right;
-        padding-left:8em;
+        padding-left:5em;
         padding-right:1em;
     }
         
@@ -227,7 +227,7 @@ a:hover, p a:hover{
         font-size:1.5em;
         font-weight:700;
         padding-right: 2em;
-        padding-left: 2em;
+        padding-left: 0em;
         
 }
 #sidebar h2 {
@@ -237,7 +237,7 @@ a:hover, p a:hover{
         font-size:1.5em;
         font-weight:700;
         padding-right: 2em;
-        padding-left: 2em;
+        padding-left: 0em;
 }
 
 /*VIDEO RULES*/
