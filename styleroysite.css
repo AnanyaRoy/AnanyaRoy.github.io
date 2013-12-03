@@ -296,14 +296,16 @@ and (max-width: 480px)
         }
         #header h1 {
             height:40%;
-            width:100%;
+            width:40%;
              font-size:0.5em;
+             text-align: justify; 
         }
 
         #header h2 {
                height:40%;
-               width:100%;
+               width:40%;
                font-size:0.5em;
+               text-align:justify;
         }
 
        #img {
