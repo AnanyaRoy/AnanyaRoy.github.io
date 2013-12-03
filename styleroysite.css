@@ -322,16 +322,16 @@ and (max-width: 480px)
 
         #article h1 {
             height:50%;
-            width:80%;
-                font-size:0.5em;
+            width:50%;
+                font-size:0.3em;
                 font-weight:400;
                 text-align:center;
         }
 
         #article h2 {
             height:40%;
-            width:70%;
-                font-size:0.5em;
+            width:50%;
+                font-size:0.3em;
                 font-weight:400;
                 text-align:center;
         }
@@ -346,8 +346,8 @@ and (max-width: 480px)
     text-align:center;
         }
 
-        #iframe {height:80%;
-        width:80%;
+        #iframe {height:50%;
+        width:50%;
         }
         
 /* iPads Portrait and Landscape */
