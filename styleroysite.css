@@ -335,6 +335,11 @@ and (max-width: 480px)
                 font-weight:400;
                 text-align:center;
         }
+        
+        #article h3{
+        height: 40%;
+        width:40%;
+        }
 
         #footer {
         font-size:1em;
