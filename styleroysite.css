@@ -108,7 +108,7 @@ img {
 nav li {
         font-family:"Oswald", sans-serif;
         font-size:4em;
-        font-weight:700;
+        font-weight:900;
 
 }
 
@@ -215,8 +215,8 @@ a:hover, p a:hover{
         letter-spacing: 3px;
         margin-top:200px;
         padding-left:2em;
-        padding-right:2em;
-        padding-bottom:2em;
+        padding-right: 2em;
+        padding-bottom: 2em;
 }
 
 
@@ -296,21 +296,21 @@ and (max-width: 480px)
         }
         #header h1 {
             height:40%;
-            width:90%;
+            width:100%;
              font-size:0.5em;
         }
 
         #header h2 {
                height:40%;
-               width:90%;
+               width:100%;
                font-size:0.5em;
         }
 
        #img {
         float: left;
         padding-right:0.3em;
-        height:10%;
-        width:10%;
+        height:20%;
+        width:20%;
     
         }
         #article p {
@@ -341,11 +341,7 @@ and (max-width: 480px)
     text-align:center;
         }
 
-        #sidebar {
-        height:40%;
-        width:30%;
-        text-align:center;
-        }
+        
 /* iPads Portrait and Landscape */
 @media only screen
 and (min-width : 768px)
@@ -402,9 +398,4 @@ and (max-width : 1024px)
         font-size:1em;
     text-align:center;
         }
-
-       #sidebar {height:50%
-       width:40%;
-       }
-
 
