@@ -138,7 +138,6 @@ article h1 {
         font-family:"Oswald", sans-serif;
         font-size:3em;
         text-decoration:underline;
-        letter-spacing: 3px;
         font-weight:700;
 
         
@@ -156,7 +155,6 @@ article h3 {
         font-size:2em;
         padding-left: 2em;
         font-weight:700;
-        letter-spacing:3px;
         color: #618743;
         text-align:justify;
 }
