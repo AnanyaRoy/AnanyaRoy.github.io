@@ -321,7 +321,7 @@ and (max-width: 480px)
         }
 
         #article h1 {
-            height:80%;
+            height:50%;
             width:80%;
                 font-size:0.5em;
                 font-weight:400;
@@ -329,8 +329,8 @@ and (max-width: 480px)
         }
 
         #article h2 {
-            height:80%;
-            width:80%;
+            height:40%;
+            width:70%;
                 font-size:0.5em;
                 font-weight:400;
                 text-align:center;
