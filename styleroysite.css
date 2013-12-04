@@ -245,6 +245,7 @@ a:hover, p a:hover{
 iframe {float:right;
         margin-left:10px;
         padding-left:4em;
+        border:0.5px;
         }
 
 /*CONTACT FORM RULES*/
